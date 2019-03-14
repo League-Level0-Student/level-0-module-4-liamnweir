@@ -13,13 +13,20 @@ public static void main(String[] args) {
 	
 
 	// 2. Make a String variable to hold the value of Pi. You could use http://www.piday.org/million/ for the value.
-String Pi= "3.14159265358979323846264338327950288419716939937510582097494459230781640628620899862803482534211706798214808651328230664709384460955058223172535940812848111745028410270";
+String Pi= "3.14159265358979323846";
 	// 3. Print out some digits of Pi. The first value is "pi.charAt(0)", the second is "pi.charAt(1)"
-
+System.out.println(3.14159265358979323846);
 	// 4. Print ALL the digits of of Pi (hint: use a loop)
+for (int i = 0; i < 22; i++) {
+	System.out.println(Pi.charAt(i));
+	
+	
+	
 
 	// 5. Use the speak() method to speak all the digits of Pi.
+speak(Pi.charAt(i));
 
+}
 	// [ADVANCED]
 	// *6. Get a character from the user using the getInputFromUser() method
 	// *7. Compare the users' char to the next digit of Pi
